@@ -1,0 +1,108 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+}
+
+.color__palabra {
+  color: #5ba0db !important;
+}
+
+#logo__nav img {
+  width: 100px;
+}
+
+.btn__carousel {
+  background-color: #5ba0db;
+  color: white;
+}
+
+.btn__carousel:hover {
+  background-color: #0966b8;
+}
+
+#main .carousel-inner img {
+  max-height: 85vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+.btn__ficha {
+  background-color: #5ba0db;
+  color: white;
+}
+
+.btn__ficha:hover {
+  background-color: #0966b8;
+  color: white;
+}
+
+#video__frase {
+  background-color: #343a40;
+  color: white;
+}
+
+#video__frase img {
+  max-width: 100%;
+}
+
+#imagen__nosotros img {
+  max-width: 100%;
+}
+
+#redes img:hover {
+  -webkit-filter: opacity(0.5);
+          filter: opacity(0.5);
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+/*** FOOTER **/
+#footer {
+  background: linear-gradient(309deg, #0086b4, #005993);
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  background-color: #7ab4c5;
+  color: whitesmoke;
+  border-radius: 50px;
+  padding: 3px;
+}
+
+/*** HTML FAQS***/
+#banner img {
+  max-height: 65vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
