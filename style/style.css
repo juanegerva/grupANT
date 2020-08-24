@@ -29,8 +29,8 @@
   max-height: 85vh;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-filter: grayscale(50%);
-          filter: grayscale(50%);
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
 }
 
 #carousel {
@@ -67,12 +67,30 @@
   color: white;
 }
 
+#contactados {
+  background-color: #343a40;
+  color: white;
+}
+
 #video__frase img {
   max-width: 100%;
 }
 
+#texto__descrip {
+  line-height: 2em;
+}
+
+#contacto3 {
+  background-color: white;
+  color: black;
+}
+
 #imagen__nosotros img {
   max-width: 100%;
+}
+
+.redes1 {
+  color: white;
 }
 
 #redes img:hover {
@@ -96,7 +114,7 @@
   background-color: #7ab4c5;
   color: whitesmoke;
   border-radius: 50px;
-  padding: 3px;
+  padding: 8px;
 }
 
 /*** HTML FAQS***/
