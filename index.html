@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<!-- Meta tags -->
@@ -52,6 +52,9 @@
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="html/contacto.html">Contacto</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="html/registro.html">Registrate</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link color__palabra" href="html/ingresar.html" data-toggle="modal"
@@ -304,15 +307,17 @@
 											<div class="form-group">
 												<div class="form-check">
 													<input class="form-check-input" type="checkbox" id="gridCheck">
-													<small class="form-check-label" for="gridCheck">
+													<lebal id="registro_novedades" class="form-check-label"
+														for="gridCheck">
 														Marca si queres registrarte a nuestra sección de novedades
-													</small>
+													</lebal>
 												</div>
 
 												<div class="form-row pt-2">
 													<div class="col">
-														<button type="button"
-															class="btn btn__ficha btn-block">Enviar</button>
+														<button type="button" class="btn btn__ficha btn-block" href="#"
+															data-toggle="modal"
+															data-target="#proximamente">Enviar</button>
 													</div>
 												</div>
 										</form>
@@ -331,9 +336,7 @@
 						<footer id="footer" class="pb-4 pt-4">
 							<div class="container">
 								<div class="row text-center">
-									<div class="col-12 col-lg">
-										<a class="active" href="#main">Home</a>
-									</div>
+
 									<div class="col-12 col-lg">
 										<a href="html/nosotros.html">Nosotros</a>
 									</div>
@@ -342,6 +345,9 @@
 									</div>
 									<div class="col-12 col-lg">
 										<a href="html/contacto.html">Contacto</a>
+									</div>
+									<div class="col-12 col-lg">
+										<a href="html/registro.html">Registro</a>
 									</div>
 									<div class="col-12 col-lg">
 										<a href="#" data-toggle="modal" data-target="#modalUnirse">ingresar</a>
@@ -399,7 +405,8 @@
 									<div class="modal-footer">
 										<button type="button" class="btn btn-secondary"
 											data-dismiss="modal">Salir</button>
-										<button type="button" class="btn btn__ficha">Ingresar</button>
+										<button type="button" class="btn btn__ficha" href="#" data-toggle="modal"
+											data-target="#proximamente">Ingresar</button>
 									</div>
 								</div>
 							</div>
@@ -429,6 +436,25 @@
 										De nuestra parte ponemos todo lo necesitario para que esten actualizados y que
 										puedan aprovechar
 										cada una de las propuestas que aparecen semanalmente.
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /Modal -->
+
+						<!-- Modal proximamente-->
+						<div class="modal fade" id="proximamente" tabindex="-1" role="dialog"
+							aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLongTitle">PROXIMAMENTE</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										En breve todas las funcionalidades estarán activas.
 									</div>
 								</div>
 							</div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<!-- Meta tags -->
@@ -19,7 +19,7 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <!-- Proyecto PAGINA WEB - NOSOTROS -->
 
@@ -43,13 +43,16 @@
 								<a class="nav-link" href="../index.html">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="../html/nosotros.html">Nosotros</a>
+								<a class="nav-link" href="nosotros.html">Nosotros</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="faqs.html">Preguntas Frecuentes</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link active" href="contacto.html">Contacto</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="registro.html">Registrate</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link color__palabra" href="#" data-toggle="modal"
@@ -72,7 +75,7 @@
 
 
 	<!-- Contacto -->
-	<section id="contacto" class="pt-3 pb-5">
+	<section id="contacto" class="pt-5 pb-5">
 		<div class="container">
 			<div class="row">
 				<div class="col text-uppercase text-center">
@@ -83,21 +86,24 @@
 
 			<div class="row">
 				<div class="col text-uppercase text-center pt-5 pb-3">
-					<h4 title="telefono" target="_blank"><img src="../images/telefono.png" width="35" alt="Telefono">
+					<h4 title="telefono" target="_blank"><span class="iconify" data-icon="emojione-v1:mobile-phone"
+							data-inline="false" width="35" alt="Telefono"></span>
 						+54 11 xxxx.xxxx </h4>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col text-uppercase text-center  pb-3">
-					<h4 title="whatsapp" target="_blank"><img src="../images/whatsapp.png" width="35" alt="whatsapp">
+					<h4 title="whatsapp" target="_blank"><span class="iconify" data-icon="logos:whatsapp"
+							data-inline="false" width="40" alt="whatsapp"></span>
 						+54 11 xxxx.xxxx </h4>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col text-uppercase text-center  pb-5">
-					<h5 title="email" mailito="" target="_blank"><img src="../images/email.png" width="35" alt="email">
+					<h5 title="email" mailito="" target="_blank"><span class="iconify" data-icon="emojione:e-mail"
+							data-inline="false" width="35" alt="email"></span>
 						contacto@grupant.xxx </h5>
 				</div>
 			</div>
@@ -109,7 +115,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+				<div class="col col-md-8 offset-md-2 col-lg-6 offset-lg-3 pt-2">
 					<form>
 						<div class="form-row">
 							<div class="form-group col-12 col-md-6">
@@ -126,7 +132,7 @@
 							</div>
 							<div class="form-group col-12 col-md-6">
 								<select id="inputState" class="form-control">
-									<option selected>elegir...</option>
+									<option selected>Origen contacto...</option>
 									<option>Socio</option>
 									<option>Proveedor</option>
 									<option>Interesado</option>
@@ -138,7 +144,7 @@
 							<div class="form-group col">
 								<textarea name="text" class="form-control form-control-lg text-muted"
 									placeholder="Dejanos tu mensaje"></textarea>
-								<small class="form-text text-muted text-center">
+								<small class="form-text text-muted text-center pt-1 pb-3">
 									Es importante que completes todos los campos para poder brindarte una atención
 									correcta
 								</small>
@@ -149,16 +155,17 @@
 
 
 						<div class="form-group">
-							<div class="form-check">
+							<div class="form-check pb-1">
 								<input class="form-check-input" type="checkbox" id="gridCheck">
-								<small class="form-check-label" for="gridCheck">
+								<label class="form-check-label" for="gridCheck">
 									Marca si queres registrarte a nuestra sección de novedades
-								</small>
+								</label>
 							</div>
 
 							<div class="form-row pt-2">
 								<div class="col">
-									<button type="button" class="btn btn__ficha btn-block">Enviar</button>
+									<button type="button" class="btn btn__ficha btn-block" href="#" data-toggle="modal"
+										data-target="#proximamente">Enviar</button>
 								</div>
 							</div>
 					</form>
@@ -176,14 +183,16 @@
 				<div class="col-12 col-lg">
 					<h5>Contactanos</h5>
 
-					<a class="pr-1" title="Facebook" href="https://www.facebook.com/" target="_blank"><img
-							src="../images/facebook.png" alt="Facebook" width="40"></a><!-- FACEBOOK-->
+					<a class="pr-1" title="Facebook" href="https://www.facebook.com/" target="_blank">
+						<span class="iconify" data-icon="logos:facebook" data-inline="false" alt="Facebook"
+							width="40"></span></a><!-- FACEBOOK-->
 
-					<a title="Instagram" href="https://www.instagram.com/" target="_blank"><img
-							src="../images/instagram.png" width="40" alt="Instagram"></a><!-- INSTAGRAM-->
+					<a title="Instagram" href="https://www.instagram.com/" target="_blank">
+						<img src="../images/instagram.png" width="40" alt="Instagram"></a><!-- INSTAGRAM-->
 
-					<a class="pl-1" title="Twitter" href="https://www.Twitter.com/" target="_blank"><img
-							src="../images/twitter.png" width="40" alt="Twitter"></a><!-- TWITTER-->
+					<a class="pl-1" title="Twitter" href="https://www.Twitter.com/" target="_blank">
+						<span class="iconify" data-icon="logos:twitter" data-inline="false" width="40"
+							alt="Twitter"></span> </a><!-- TWITTER-->
 				</div>
 
 			</div>
@@ -206,7 +215,7 @@
 					<a href="faqs.html">Preguntas Frecuentes</a>
 				</div>
 				<div class="col-12 col-lg active">
-					<a href="contacto.html">Contacto</a>
+					<a href="registro.html">Registro</a>
 				</div>
 				<div class="col-12 col-lg">
 					<a href="#" data-toggle="modal" data-target="#modalUnirse">ingresar</a>
@@ -215,6 +224,26 @@
 		</div>
 	</footer>
 	<!-- /Footer -->
+
+	<!-- Modal proximamente-->
+	<div class="modal fade" id="proximamente" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">PROXIMAMENTE</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					En breve todas las funcionalidades estarán activas.
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /Modal -->
+
 
 	<!-- Modal LOGUIN-->
 	<div class="modal fade" id="modalUnirse" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
@@ -262,7 +291,8 @@
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
-					<button type="button" class="btn btn__ficha">Ingresar</button>
+					<button type="button" class="btn btn__ficha" href="#" data-toggle="modal"
+						data-target="#proximamente">Ingresar</button>
 				</div>
 			</div>
 		</div>

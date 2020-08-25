@@ -93,7 +93,7 @@
   color: white;
 }
 
-#redes img:hover {
+#redes a:hover {
   -webkit-filter: opacity(0.5);
           filter: opacity(0.5);
   -webkit-transform: rotate(-10deg);
